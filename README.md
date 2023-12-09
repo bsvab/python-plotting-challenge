@@ -23,7 +23,8 @@ The executive team has tasked you with generating all of the tables and figures 
 ## <p style="color:#CC6600">Bar & Pie Charts</p> 
 
 <ins>Final Script Outputs</ins>:<img src="Images/uta_icon_checkmark.svg" width="30" height="12">  <br>
-![Results](Images/Results03.png)
+![Results](Images/Results03a.png)
+![Results](Images/Results03b.png)
 <br>
 
 ## <p style="color:#CC6600">Box Plot</p> 
@@ -35,14 +36,22 @@ The executive team has tasked you with generating all of the tables and figures 
 ## <p style="color:#CC6600">Line & Scatter Plots</p> 
 
 <ins>Final Script Outputs</ins>:<img src="Images/uta_icon_checkmark.svg" width="30" height="12">  <br>
-![Results](Images/Results05.png)
+![Results](Images/Results05a.png)
+![Results](Images/Results05b.png)
 <br>
 
 ## <p style="color:#CC6600">Correlation & Regression</p> 
 
 <ins>Final Script Outputs</ins>:<img src="Images/uta_icon_checkmark.svg" width="30" height="12">  <br>
-![Results](Images/Results05.png)
+![Results](Images/Results06.png)
 <br>
+
+## <p style="color:#CC6600">Analysis</p> 
+
+- Looking at the summary statistics by drug regimen, it is notable that of the 10 regimens, all mean and median values are in the 50-52 range except for two. Capomulin and Ramicane are both in the 40-41 range, roughly 10mm3 less than the other regimens. This may be indicative of these regimens being more effective at shrinking tumors than their counterparts.
+- The above observation is also reinforced when observing the box plot that was generated showing the lower tumor volume for the Capomulin and Ramicane regimens.
+- When observing the line graph of Capomulin treatment of mouse l509 over time, it shows that tumor volume drops over time with just a few blips of growth. Collectively the trend is showing shrinkage over time.
+- Lastly the linear regression plotted on mouse weight vs average tumor volume shows that there is a correlation between those two variables. Because of this, further analysis is needed to see whether the apparent positive results for Capomulin and Ramicane are being skewed by having smaller mice in their datasets on average. If so, the data will need to be controlled against mouse weight discrepancies between regimens. 
 
 ## <p style="color:#CC6600">References</p>
 
